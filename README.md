@@ -20,6 +20,5 @@ Zuri Knowledge Base is an interactive tool that lets you upload academic PDFs an
 ```bash
 git clone https://github.com/yourusername/zuri-knowledge-base.git
 cd zuri-knowledge-base
-pip install -r requirements.txt
 cp .env.example .env  # Add your OpenAI key to .env
-python app.py
+python chat_builder.py
